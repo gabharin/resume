@@ -1,0 +1,82 @@
+@keyframes borders_in {
+    from {
+        border-top-right-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        border-top-left-radius: 0rem;
+    }
+    to {
+        border-top-right-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+}
+
+.main_wrapper {
+    height: 100vh;
+}
+
+.navbar {
+    height: 8%;
+}
+
+.header_container {
+    animation-name: slide_border_back;
+    animation-duration: 2s;
+    background-color: #3f37c9;
+    height: 92%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: slide_border_forth;
+    animation-duration: 1s;
+    width: 100%;
+    height: 100%;
+    background-color: #4361ee;
+}
+
+.header :first-child {
+    font-weight: bold;
+}
+
+.introduction_text {
+    margin-bottom: 2rem;
+}
+
+#mail_icon {
+    height: 5rem;
+    width: 5rem;
+    background-image: url('../img/mail.png');
+}
+
+.contact_info {
+    background-color: #3f37c9;
+    padding: 1rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    animation: 1s borders_in;
+    transition: .1s;
+}
+
+.contact_info:hover {
+    transform: scale(1.05);
+}
+
+.contact_info p:nth-of-type(2n-1) {
+    font-size: 90%;
+}
+
+.contact_info p:nth-of-type(2n) {
+    font-weight: bold;
+}
+
+.moving_dot {
+    background-color: #3f37c9;
+}
