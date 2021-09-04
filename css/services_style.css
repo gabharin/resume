@@ -40,14 +40,14 @@
 
 #laptop_image {
     background-image: url(../img/laptop.jpg);
-    height: 10rem;
-    width: 15rem;
+    height: 12.3rem;
+    width: 18.5rem;
 }
 
 #phone_image {
     background-image: url(../img/phone.jpg);
-    height: 10rem;
-    width: 15rem;
+    height: 12.3rem;
+    width: 18.5rem;
 }
 
 #gear_icon {
@@ -64,6 +64,20 @@
     
     .header {
         border-bottom-right-radius: 0rem;
+    }
+
+}
+
+@media (max-width: 767.98px) { 
+
+    #laptop_image {
+        height: 10rem;
+        width: 15rem;
+    }
+    
+    #phone_image {
+        height: 10rem;
+        width: 15rem;
     }
 
 }

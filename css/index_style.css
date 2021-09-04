@@ -48,6 +48,77 @@
     margin-bottom: 3rem;
 }
 
+#career {
+    border-radius: 1rem;
+}
+
+#career h1 {
+    font-weight: bold;
+    font-size: 150%;
+    padding-bottom: 1rem;
+    text-align: left;
+    border-bottom: 1px white solid;
+    margin-bottom: 1.5rem;
+}   
+
+#career ul li {
+    text-align: center;
+}
+
+#career ul li:first-of-type {
+    margin-top: 2rem;
+}
+
+#career ul li:nth-of-type(2n-1) {
+    font-size: 75%;
+    margin-bottom: .5rem;
+}
+
+#career ul li:nth-of-type(2n) {
+    font-size: 110%;
+    margin-bottom: .75rem;
+    padding: .5rem;
+    transition: .5s;
+    border-radius: 1rem;
+    background-color: #738cff;
+}
+
+#example_website {
+    background-image: url('../img/example.png');
+    height: 12.5rem;
+    width: 23.5rem;
+}
+
+#projects p {
+    margin-bottom: 1rem;
+}
+
+#ctr_demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem 0 1rem 0;
+}
+
+.photo_demo {
+    background-size: contain;
+    height: 16.5rem;
+    width: 8rem;
+    border-radius: 1rem;
+}
+
+#ctr1 {
+    background-image: url('../img/ctr1.png');
+}
+
+#ctr2 {
+    background-image: url('../img/ctr2.png');
+}
+
+#ctr3 {
+    background-image: url('../img/ctr3.png');
+}
+
 @media (max-width: 575.98px) {
 
     .header_container {
@@ -62,6 +133,30 @@
         font-size: 100%;
         padding-top: 3rem;
         padding-bottom: 3rem;
+    }
+
+    #career {
+        border-radius: 1rem;
+    }
+
+}
+
+@media (max-width: 767.98px) { 
+
+    #career {
+        border-radius: 0rem;
+    }
+
+    #example_website {
+        height: 8rem;
+        width: 15rem;
+    }
+
+    .photo_demo {
+        background-size: contain;
+        height: 11.75rem;
+        width: 5.75rem;
+        border-radius: 1rem;
     }
 
 }
