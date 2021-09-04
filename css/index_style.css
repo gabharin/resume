@@ -135,17 +135,9 @@
         padding-bottom: 3rem;
     }
 
-    #career {
-        border-radius: 1rem;
-    }
-
 }
 
 @media (max-width: 767.98px) { 
-
-    #career {
-        border-radius: 0rem;
-    }
 
     #example_website {
         height: 8rem;

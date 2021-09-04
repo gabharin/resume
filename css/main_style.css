@@ -197,6 +197,7 @@ p {
 .info_block:nth-of-type(2n) {
     background-color: #4361ee;
     color: white;
+    border-radius: 1rem;
 }
 
 .info_block {
@@ -311,7 +312,7 @@ p {
 
 @media (max-width: 767.98px) { 
 
-    #career {
+    .info_block:nth-of-type(2n) {
         border-radius: 0rem;
     }
 
